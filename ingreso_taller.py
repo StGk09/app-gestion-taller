@@ -1,4 +1,4 @@
-onde import streamlit as st
+import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
@@ -166,3 +166,4 @@ with st.form("entry_form", clear_on_submit=True):
             st.success("✅ ¡Orden de servicio creada exitosamente!")
 
             st.balloons()
+
