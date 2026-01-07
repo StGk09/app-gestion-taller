@@ -1,4 +1,4 @@
-import streamlit as st
+onde import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 
 # --- Configuración Inicial ---
-st.set_page_config(page_title="Registro Técnico Pro", layout="wide")
+st.set_page_config(page_title="SecondeLife", layout="wide")
 
 # Carpetas de almacenamiento
 FOLDERS = ['datos', 'datos/fotos_dispositivos', 'datos/firmas']
@@ -164,4 +164,5 @@ with st.form("entry_form", clear_on_submit=True):
                 df_new.to_csv(FILE_PATH, mode='w', header=True, index=False)
 
             st.success("✅ ¡Orden de servicio creada exitosamente!")
+
             st.balloons()
