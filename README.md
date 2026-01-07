@@ -10,11 +10,14 @@ Un sistema completo de registro de órdenes de servicio, firmas digitales y evid
 - **Seguridad:** Gestión de credenciales mediante Secrets Management (evitando exposición en código).
 
 ## Arquitectura
+```
 [ Usuario ] --> [ App Streamlit (Python) ]
                       |
                       +---> [ Cloudinary API ] (Sube fotos, retorna URL segura)
                       |
                       +---> [ Google Sheets API ] (Guarda metadatos + URLs)
+
+```
 
 ## Instalación y Uso Local
 
