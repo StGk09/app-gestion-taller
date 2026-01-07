@@ -2,5 +2,5 @@ streamlit
 pandas
 streamlit_drawable_canvas
 Pillow
-
 openpyxl
+
